@@ -3,7 +3,7 @@ import 'package:flutter_lab4_app/gradient_container.dart';
 
 void main() {
   runApp(
-    MaterialApp(debugShowCheckedModeBanner: false,
+    const MaterialApp(debugShowCheckedModeBanner: false,
   home:(Scaffold(
     body: GradientContainer(
     Colors.white,
